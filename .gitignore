@@ -1,0 +1,14 @@
+# Large files
+hhhexperiment_model.blend
+
+# Datasets (if they're too large)
+# unreal_data/
+# images_val/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

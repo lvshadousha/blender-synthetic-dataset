@@ -1,0 +1,8 @@
+path:  C:\lvdousha\school\graduate_design\bolt_detach\projects\code
+train: C:\lvdousha\school\graduate_design\bolt_detach\projects\code\train_unreal1
+val: C:\lvdousha\school\graduate_design\bolt_detach\projects\code\images_val_final
+test: C:\lvdousha\school\graduate_design\bolt_detach\projects\code\test
+
+names:
+  0: bolt
+nc: 1
