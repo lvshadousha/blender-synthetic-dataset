@@ -1,5 +1,5 @@
 blender-synthetic-dataset
-用 Blender 4.4.3 生成合成数据集，目前输出为二值分割掩码（binary segmentation mask）：纯黑白 PNG，像素值为 0/1。
+用 Blender 4.4.3 生成合成数据集，目前输出为二值分割掩码
 
 示例工程：hhhexperiment_model.blend  
 渲染脚本：在 .blend 文件内部，文本名为 渲染脚本.py（直接在 Blender 中运行）
@@ -37,4 +37,5 @@ blender-synthetic-dataset
 ## 常见问题（FAQ）
 ### 1) 为什么我运行后 Blender 卡住了？
 脚本执行期间会占用主线程/渲染资源，导致 UI 无响应，这是你当前脚本运行方式的正常表现。等任务完成后 UI 会恢复。
+
 
