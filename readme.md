@@ -12,11 +12,11 @@ blender-synthetic-dataset
 
 输出格式：PNG（纯黑白）
 
-如果你后续需要 bbox、COCO/YOLO 标注：可以在渲染完成后，对 mask PNG 做脚本后处理（例如连通域提取 → bbox/面积/轮廓）。
+如果后续需要 bbox、COCO/YOLO 标注：可以在渲染完成后，对 mask PNG 做脚本后处理（例如连通域提取 → bbox/面积/轮廓）。
 
 ## 环境要求
-- Blender：4.4.3（建议与项目一致，避免 API/渲染差异）
-- 操作系统：Windows / macOS / Linux 均可（以你的实际环境为准）
+- Blender：4.4.3（建议与项目一致，临近的4.x更高版本可以尝试，最好不要相差大版本，有些材质和函数并不兼容）
+- 操作系统：Windows / macOS / Linux 均可
 
 ## 如何运行（Blender UI 内执行）
 1. 使用 Blender 打开工程文件：hhhexperiment_model.blend
@@ -33,7 +33,8 @@ blender-synthetic-dataset
 
 ## 常见问题（FAQ）
 ### 1) 为什么我运行后 Blender 卡住了？
-脚本执行期间会占用主线程/渲染资源，导致 UI 无响应，这是你当前脚本运行方式的正常表现。等任务完成后 UI 会恢复。
+脚本执行期间会占用主线程/渲染资源，导致 UI 无响应，这是当前脚本运行方式的正常表现。等任务完成后 UI 会恢复。
+
 
 
 
